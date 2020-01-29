@@ -1,5 +1,5 @@
 # Traffic Light Image Classifier
-This project implements various computer vision techniques to biuld a classifier from images of traffic lights.The pipeline for the same as follows:
+This project implements various computer vision techniques to biuld a classifier from images of traffic lights. The pipeline for the same as follows:
 1. Loading and Visualizing the data
 2. Pre-Processing
 3. Feature Extraction
@@ -27,4 +27,4 @@ We mainly implement two features in conjuction. First the images are cropped in 
 ![](images/image4.png)</br>
 The feature extraction code is run over the 'Standardized Images' from test dataset. The generated label is compared with the actual label and all the missclassified images are displayed.
 ### 5. Model Evaluation
-The model accuracy is found as 96.296 %
+The model accuracy is found as **96.29 %**
