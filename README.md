@@ -24,6 +24,7 @@ The classifier out is a one-hot encoded label, A red light is labelled as [1, 0,
 ![](images/image3.png)
 We mainly implement two features in conjuction. First the images are cropped in three equal parts height-wise. Each of theese sub-images are then converted from rgb to hsv space. Average value of saturation is then computed over the 'S' channel and threshold is used to classify into red, yellow and green. The cropping strategy ensures that even if there are miss classification no red light ever gets classified as green since that would be the worst from the autonomous car standpoint.
 ### 4. Classification and Error Visualization
+![](images/image4.png)</br>
 The feature extraction code is run over the 'Standardized Images' from test dataset. The generated label is compared with the actual label and all the missclassified images are displayed.
 ### 5. Model Evaluation
 The model accuracy is found as 96.296 %
