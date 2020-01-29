@@ -14,8 +14,8 @@ This traffic light dataset consists of 1484 number of color images in 3 categori
 _All images come from the MIT self-driving car course_
 ### 2. Pre-Processing
 <p float="left">
-  <img src="images/image2.png" width="200" />
-  <img src="images/image3.png" width="200" /> 
+  <img src="images/image1.png" width="300" />
+  <img src="images/image2.png" width="300" /> 
 </p>
 #### Input:
 This step ensures that every image is in the same format, of the same size and so on. This is important to ensure that similar images create similar features. All images were trimmed from the sides and the size was fixed to a 32x32 image. A 'Standardized List' was generated for the next steps.
